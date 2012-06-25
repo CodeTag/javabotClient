@@ -1,4 +1,5 @@
 javabotClient
 =============
 
-Bot en Java par el bomberbot Challenge
+Bot en Java para el bomberbot Challenge
+se puede importar como un proyecto de eclipse
