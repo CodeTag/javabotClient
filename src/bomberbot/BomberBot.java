@@ -34,7 +34,7 @@ public class BomberBot {
 
 	private void conectar(String user, String token)
 			throws UnknownHostException, IOException {
-		socketCliente = new Socket("localhost", 5000);
+		socketCliente = new Socket("bomberbot.com", 5000);
 		outToServer = new PrintWriter(socketCliente.getOutputStream());
 		inFromServer = new Scanner(new InputStreamReader(
 				socketCliente.getInputStream()));
